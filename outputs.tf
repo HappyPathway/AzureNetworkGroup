@@ -6,4 +6,6 @@ output "network_id" {
     value = "${azurerm_virtual_network.avn.id}"
 }
 
-output "resource_group" {}
+output "resource_group" {
+    value = "${azurerm_resource_group.arg.name}"
+}
