@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "arg" {
-  name     = "${var.service_name}-${var.env}"
+  name     = "${var.resource_group}"
   location = "${var.location}"
 }

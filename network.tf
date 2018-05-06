@@ -12,4 +12,3 @@ resource "azurerm_subnet" "asn" {
   address_prefix       = "${var.subnet_cidr}"
 }
 
-
